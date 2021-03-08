@@ -1,0 +1,7 @@
+[
+	{
+		VulnID: "V-101601",
+		Command: "show running-config",
+		Patterns: [ "ip access-list extended EXTERNAL_ACL", "ip access-list extended INTERNAL_ACL", "ip access-group EXTERNAL_ACL in", "ip access-group INTERNAL_ACL in"]
+	}
+]
